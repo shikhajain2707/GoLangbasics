@@ -20,7 +20,7 @@ func Possmov(pos Position) {
 	if isval == true {
 		//name := Position{}
 		fmt.Println("Something")
-		fmt.Println(pos.name)
+		fmt.Println(pos.name, pos.col, pos.row)
 	}
 }
 func main() {
